@@ -38,7 +38,7 @@ st.write("**Start Elevating Your Job Applications Today!**")
 st.write("Unleash the power of Resume Analyzer Pro and take control of your career trajectory. Upload your JD and resume now to receive personalized insights and increase your chances of landing your dream job.")
 st.write("*Your Success Starts Here!*")
 jd=st.text_area("Paste the Job Description")
-uploaded_file=st.file_uploader("Upload Your Resume",type="pdf",help="Please uplaod the pdf")
+uploaded_file=st.file_uploader("Upload Your Resume",type="pdf",help="Please upload the pdf")
 
 submit = st.button("Submit")
 
